@@ -12,14 +12,30 @@
     <script src="Scripts/jquery-1.9.1.min.js"></script>
     <script src="Scripts/bootstrap.min.js"></script>
     <link href="Estilos/DefaultPrincipal.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Nunito|Nunito+Sans:400,600,700" rel="stylesheet"/>
+	<link href="https://fonts.googleapis.com/css?family=Mogra" rel="stylesheet"/>
 </head>
 <body id="cuerpo">
     <form id="form1" runat="server">
-    <div >
-        <section id="principal">
+    <div class="container row" id="principal">
+        <section id="pres">
         <h1>Sub&Dod</h1>
-        <p>Una mejor Forma de entrentenimiento audiovisual <br/> Encuentras de Todo con el SUBtitulado y DOBlado más exacto </p>
+        <p class="col-xs-12">Una mejor Forma de entrentenimiento audiovisual...</p> <br /> <p class="col-xs-12"> Encuentras de Todo con el Subtitulado y Doblado más exacto... </p>
         </section>
+        <div class="container-fluid row" id="invitacion">
+            <section id="izq" class="col-xs-12 col-md-6">
+                <p>Películas, series, Documentales, novelas... y mucho más</p>
+                
+                <p>Nos enfocamos en tí, en tu cultura, para darte una mejor experiencia.</p>
+                <button class="btn btn-primary btn_promo">Comienza a Ver</button>
+            </section>
+            <section id="der" class="col-xs-12 col-md-6">
+                <p>Deseas llegar a más culturas</p>
+                
+                <p>Nos enfocamos en lo que buscas y te damos lo que quieres con una precisión más exacta</p>
+                <button class="btn btn-primary btn_promo">Solicita a Sub&Dob</button>
+            </section>
+        </div>
     
     </div>
     </form>

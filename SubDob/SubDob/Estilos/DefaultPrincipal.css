@@ -4,5 +4,25 @@
 
 #principal{
     background-color:#a88d1a;
-    margin: 50px 70px;
+    margin: 10% 9%;
+    font-family: 'Comic Sans MS';
+    
+}
+#principal p, h1{
+    text-align:center;
+}
+h1{
+    font-size:60px;
+}
+#principal p{
+
+}
+.btn_promo{
+    display:block;
+    margin:auto;
+}
+#der{
+    border-left:2px solid black;
+    margin-bottom:10px;
+    
 }
