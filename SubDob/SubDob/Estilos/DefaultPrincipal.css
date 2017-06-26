@@ -1,28 +1,46 @@
 ﻿body {
-    background-color:#cec394;
+    background-image: url('../images/fondoP.jpg');
 }
 
 #principal{
-    background-color:#a88d1a;
-    margin: 10% 9%;
-    font-family: 'Comic Sans MS';
     
+    margin: 12% 9%;   
+    font-family:'Comic Sans MS'; 
+    padding:20px 20px;
+    background-color:white;
 }
-#principal p, h1{
+
+#principal > div{
+    background-color:#0e2072;
+
+}
+#principal > div *{
+    color:white;
     text-align:center;
 }
+
+
+#principal  h1{
+    font-family: 'Bowlby One', cursive;
+    background-color:#000311;
+    padding:10px;
+    color:white;
+    text-align:center;
+    margin:0 0 0 0;
+}
+
+
 h1{
     font-size:60px;
 }
 #principal p{
 
 }
-.btn_promo{
+.btn_promo, #subDobEmpresa{
     display:block;
     margin:auto;
 }
 #der{
-    border-left:2px solid black;
     margin-bottom:10px;
     
 }
