@@ -1,0 +1,43 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="EmpresaOrgDefault.master.cs" Inherits="SubDob.EmpresaOrg.EmpresaOrgDefault" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+   
+    
+    <title>Sub&Dob</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
+    <link href="Estilo.css" rel="stylesheet" />
+    <link href="../Content/bootstrap-theme.min.css" rel="stylesheet" />
+    <link href="../Content/bootstrap.min.css" rel="stylesheet" />
+    
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="contenedor"> 
+          <header>
+
+            <h1 id="logo"> SubDob </h1>
+            <nav> 
+                <section class="opcion" > 
+
+                    <a href="Home.aspx">HOME</a>
+                    <a href="Nosotros.aspx">NOSOTROS</a>
+                    <a href="NuestrosServicios.aspx">NUESTROS SERVICIOS</a>
+                    <a href="Contactanos.aspx">CONTACTANOS</a>
+                    <a href="Presupuesto.aspx">PRESUPUESTO</a>
+
+                </section>
+            </nav>
+         </header>
+            <section id="principal">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </section>
+        </div>
+      <footer> &copy SubDob </footer>
+    </form>
+</body>
+</html>

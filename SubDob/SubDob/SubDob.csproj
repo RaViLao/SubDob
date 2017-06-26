@@ -63,6 +63,12 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Default.aspx" />
+    <Content Include="EmpresaOrg\Contactanos.aspx" />
+    <Content Include="EmpresaOrg\Estilo.css" />
+    <Content Include="EmpresaOrg\Home.aspx" />
+    <Content Include="EmpresaOrg\Nosotros.aspx" />
+    <Content Include="EmpresaOrg\NuestrosServicios.aspx" />
+    <Content Include="EmpresaOrg\Presupuesto.aspx" />
     <Content Include="Estilos\DefaultPrincipal.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
@@ -73,6 +79,7 @@
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="Content\bootstrap.min.css.map" />
     <Content Include="Content\bootstrap.css.map" />
+    <Content Include="EmpresaOrg\EmpresaOrgDefault.Master" />
     <None Include="Scripts\jquery-1.9.1.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -101,6 +108,48 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="EmpresaOrg\Contactanos.aspx.cs">
+      <DependentUpon>Contactanos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EmpresaOrg\Contactanos.aspx.designer.cs">
+      <DependentUpon>Contactanos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EmpresaOrg\EmpresaOrgDefault.Master.cs">
+      <DependentUpon>EmpresaOrgDefault.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EmpresaOrg\EmpresaOrgDefault.Master.designer.cs">
+      <DependentUpon>EmpresaOrgDefault.Master</DependentUpon>
+    </Compile>
+    <Compile Include="EmpresaOrg\Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EmpresaOrg\Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EmpresaOrg\Nosotros.aspx.cs">
+      <DependentUpon>Nosotros.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EmpresaOrg\Nosotros.aspx.designer.cs">
+      <DependentUpon>Nosotros.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EmpresaOrg\NuestrosServicios.aspx.cs">
+      <DependentUpon>NuestrosServicios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EmpresaOrg\NuestrosServicios.aspx.designer.cs">
+      <DependentUpon>NuestrosServicios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EmpresaOrg\Presupuesto.aspx.cs">
+      <DependentUpon>Presupuesto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EmpresaOrg\Presupuesto.aspx.designer.cs">
+      <DependentUpon>Presupuesto.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -116,7 +165,6 @@
   <ItemGroup>
     <Folder Include="Admin\" />
     <Folder Include="App_Data\" />
-    <Folder Include="EmpresaOrg\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>
