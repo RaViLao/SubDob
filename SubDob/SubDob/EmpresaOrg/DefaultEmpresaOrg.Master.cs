@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace SubDob.EmpresaOrg
 {
-    public partial class EmpresaOrgDefault : System.Web.UI.MasterPage
+    public partial class DefaultEmpresaOrg : System.Web.UI.MasterPage
     {
         protected void Page_Load(object sender, EventArgs e)
         {

@@ -79,7 +79,7 @@
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="Content\bootstrap.min.css.map" />
     <Content Include="Content\bootstrap.css.map" />
-    <Content Include="EmpresaOrg\EmpresaOrgDefault.Master" />
+    <Content Include="EmpresaOrg\DefaultEmpresaOrg.Master" />
     <None Include="Scripts\jquery-1.9.1.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -115,12 +115,12 @@
     <Compile Include="EmpresaOrg\Contactanos.aspx.designer.cs">
       <DependentUpon>Contactanos.aspx</DependentUpon>
     </Compile>
-    <Compile Include="EmpresaOrg\EmpresaOrgDefault.Master.cs">
-      <DependentUpon>EmpresaOrgDefault.Master</DependentUpon>
+    <Compile Include="EmpresaOrg\DefaultEmpresaOrg.Master.cs">
+      <DependentUpon>DefaultEmpresaOrg.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="EmpresaOrg\EmpresaOrgDefault.Master.designer.cs">
-      <DependentUpon>EmpresaOrgDefault.Master</DependentUpon>
+    <Compile Include="EmpresaOrg\DefaultEmpresaOrg.Master.designer.cs">
+      <DependentUpon>DefaultEmpresaOrg.Master</DependentUpon>
     </Compile>
     <Compile Include="EmpresaOrg\Home.aspx.cs">
       <DependentUpon>Home.aspx</DependentUpon>
