@@ -33,7 +33,7 @@
                 <p>Deseas llegar a más culturas</p>
                 
                 <p>Nos enfocamos en lo que buscas y te damos lo que quieres con una precisión más exacta</p>
-                <button class="btn btn-primary btn_promo">Solicita a Sub&Dob</button>
+                <button class="btn btn-primary btn_promo"><a href="../EmpresaOrg/Home.aspx">Solicita a Sub&Dob</a></button>
             </section>
         </div>
     
