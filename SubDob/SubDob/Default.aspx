@@ -30,13 +30,13 @@
                 <p>Películas, series, Documentales, novelas... y mucho más</p>
                 
                 <p>Nos enfocamos en tí, en tu cultura, para darte una mejor experiencia.</p>
-                <button class="btn btn-primary btn_promo">Comienza a Ver</button>
+                <asp:Button cssClass="btn btn-primary" ID="VerVideo" runat="server" Text="Comienza a Ver" OnClick="Button1_Click" />
             </section>
             <section id="der" class="col-xs-12 col-md-6">
                 <p>Deseas llegar a más culturas</p>
                 
                 <p>Nos enfocamos en lo que buscas y te damos lo que quieres con una precisión más exacta</p>
-                <asp:Button cssClass="btn btn-primary" ID="subDobEmpresa" runat="server" Text="Solicita SubDob" OnClick="Button1_Click" />
+                <asp:Button cssClass="btn btn-primary" ID="subDobEmpresa" runat="server" Text="Solicita SubDob" OnClick="Button2_Click" />
             </section>
         </div>
     </div>

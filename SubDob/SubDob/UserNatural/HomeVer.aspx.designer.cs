@@ -7,10 +7,10 @@
 // </generado automáticamente>
 //------------------------------------------------------------------------------
 
-namespace SubDob {
+namespace SubDob.UserNatural {
     
     
-    public partial class Default {
+    public partial class HomeVer {
         
         /// <summary>
         /// Control form1.
@@ -22,21 +22,21 @@ namespace SubDob {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
-        /// Control VerVideo.
+        /// Control DataList1.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button VerVideo;
+        protected global::System.Web.UI.WebControls.DataList DataList1;
         
         /// <summary>
-        /// Control subDobEmpresa.
+        /// Control sqdSProducto.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button subDobEmpresa;
+        protected global::System.Web.UI.WebControls.SqlDataSource sqdSProducto;
     }
 }
