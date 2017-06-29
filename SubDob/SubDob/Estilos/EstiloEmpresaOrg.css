@@ -47,6 +47,34 @@ footer {
 /*Estilo de nuestros servicios*/
 
 /*Estilo de nosotros*/
+#nosotros {
+    /*background-image: url('../images/nosotros.jpg');*/
+    min-height: 35px;
+    text-align: center;
+}
+
+.somos {
+    float: left;
+    color: white;
+    width: 50%;
+    background-color: rgba(25, 202, 250, 0.70);
+    font-family: Arial,Helvetica,Sans,Sans-Serif,Sans Serif;
+    font-size: 2em;
+    padding: 5% 10% 10% 10%;
+    border-radius: 15px;
+    margin-left: 15px;
+}
+
+.imgSomos {
+    margin-left: 50%;
+    margin-bottom: 10px;
+}
+
+#cotenedorSomos {
+    margin-top: 25px;
+    clear: both;
+    margin-bottom: 20px;
+}
 
 /*Estilo de contactenos*/
 
