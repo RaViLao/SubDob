@@ -64,7 +64,11 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Default.aspx" />
     <Content Include="EmpresaOrg\Contactanos.aspx" />
+<<<<<<< HEAD
     <Content Include="Estilos\Estilo.css" />
+=======
+    <Content Include="Estilos\EstiloEmpresaOrg.css" />
+>>>>>>> 7da91585f4b7c5f41c6fd3a6b9cb425816afbf6e
     <Content Include="EmpresaOrg\Home.aspx" />
     <Content Include="EmpresaOrg\Nosotros.aspx" />
     <Content Include="EmpresaOrg\NuestrosServicios.aspx" />
