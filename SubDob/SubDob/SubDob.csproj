@@ -64,7 +64,7 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Default.aspx" />
     <Content Include="EmpresaOrg\Contactanos.aspx" />
-    <Content Include="EmpresaOrg\Estilo.css" />
+    <Content Include="Estilos\Estilo.css" />
     <Content Include="EmpresaOrg\Home.aspx" />
     <Content Include="EmpresaOrg\Nosotros.aspx" />
     <Content Include="EmpresaOrg\NuestrosServicios.aspx" />
@@ -81,12 +81,15 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="EmpresaOrg\DefaultEmpresaOrg.Master" />
     <None Include="Scripts\jquery-1.9.1.intellisense.js" />
+    <Content Include="UserNatural\publi1.xml" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-1.9.1.js" />
     <Content Include="Scripts\jquery-1.9.1.min.js" />
     <Content Include="Scripts\jquery-1.9.1.min.map" />
     <Content Include="packages.config" />
+    <Content Include="UserNatural\HomeVer.aspx" />
+    <Content Include="UserNatural\UsuarioNaturalMas.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -96,9 +99,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
-    <Content Include="UserNatural\HomeVer.aspx" />
     <Content Include="UserNatural\UsuarioNatural_InicioSesion.aspx" />
-    <Content Include="UserNatural\UsuarioNatural_Estilo.css" />
+    <Content Include="Estilos\UsuarioNatural_Estilo.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -161,6 +163,13 @@
     </Compile>
     <Compile Include="UserNatural\HomeVer.aspx.designer.cs">
       <DependentUpon>HomeVer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserNatural\UsuarioNaturalMas.Master.cs">
+      <DependentUpon>UsuarioNaturalMas.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserNatural\UsuarioNaturalMas.Master.designer.cs">
+      <DependentUpon>UsuarioNaturalMas.Master</DependentUpon>
     </Compile>
     <Compile Include="UserNatural\UsuarioNatural_InicioSesion.aspx.cs">
       <DependentUpon>UsuarioNatural_InicioSesion.aspx</DependentUpon>

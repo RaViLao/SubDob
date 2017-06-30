@@ -1,4 +1,12 @@
-﻿/*estilo default*/
+﻿li {
+    float: left;
+    text-decoration:none;
+    display:inline-block;
+    
+
+}
+
+/*estilo default*/
 body {
     background-image: url("Imagenes/traduccion-peliculas.jpg");
 }

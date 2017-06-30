@@ -1,0 +1,43 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="UsuarioNaturalMas.master.cs" Inherits="SubDob.UserNatural.UsuarioNaturalMas" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <link href="../Content/bootstrap-theme.min.css" rel="stylesheet" />
+    <link href="../Content/bootstrap.min.css" rel="stylesheet" />
+    <script src="../Scripts/jquery-1.9.1.min.js"></script>
+    <script src="../Scripts/bootstrap.min.js"></script>
+    <link href="../Estilos/UsuarioNatural_Estilo.css" rel="stylesheet" />
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <header  id="cabecera" class="container-fluid rows">
+                <section class="col-xs-3 col-md-3">
+                    <h1>Sub&Dob</h1>
+                </section>
+                <section id="buscando" class="col-xs-9 col-md-6">
+                    <input id="buscador" type="text" placeholder="Buscar" /> <asp:Button ID="Buscar" runat="server" Text="buscar" />
+                </section>
+                <section  style="text-align:center" class="col-xs-12 col-md-3">
+                    <ul id="sesion">
+                        <li><a>Iniciar Sesion</a></li>
+                        <li><a>Registrate</a></li>
+                    </ul>
+                </section>
+            </header>
+            
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+
+            <footer id="fin"> &contactos</footer>
+        </div>
+    </form>
+</body>
+</html>

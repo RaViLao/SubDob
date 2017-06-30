@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+  <Ad>
+    <ImageUrl>http://cde.3.elcomercio.pe/ima/0/0/9/7/9/979777.png</ImageUrl>
+    <NavigateUrl>http://www.facebook.com</NavigateUrl>
+    <Impressions>100</Impressions>
+  </Ad>
+
+  <Ad>
+    <ImageUrl>http://www.masgamers.com/wp-content/uploads/2016/08/pokemon-entel.jpg</ImageUrl>
+    <NavigateUrl>http://www.facebook.com</NavigateUrl>
+    <Impressions>100</Impressions>
+  </Ad>
+</Advertisements>
