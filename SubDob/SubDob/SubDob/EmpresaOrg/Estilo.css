@@ -1,0 +1,107 @@
+﻿/*estilo default*/
+body {
+    background-image: url("Imagenes/traduccion-peliculas.jpg");
+}
+
+header {
+    min-height: 180px;
+    background-color:#272B36;
+    margin-top: 0px;
+    text-align: inherit;
+}
+
+#logo {
+    color: white;
+    font-size: 80px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+footer {
+    min-height: 80px;
+    background-color: #424040;
+    text-align: center;
+    padding: 35px;
+}
+
+.opcion {
+    clear: both;
+    margin-left: 25%;
+    padding-bottom: 25px;
+}
+
+ .opcion > a {
+        padding: 25px;
+        min-height: 15px;
+        color: white;
+        visibility: inherit;
+        font-size: 20px;
+        text-decoration:none;
+    
+    }
+/*Estilo de home*/
+#home {
+    background-image: url(tło_mur_czarny.jpg);
+}
+#lema {
+    font-family:Arial;
+    color:#fff;
+}
+
+
+/*Estilo de nuestros servicios*/
+
+/*Estilo de nosotros*/
+
+/*Estilo de contactenos*/
+
+
+#contacto {
+    width: 450px;
+    margin: auto;
+    background: rgba(0,0,0,0.4);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+    background-image: url('Imagenes/cine.jpg');
+    background-repeat: no-repeat;
+    margin-bottom:15px;
+}
+
+#TituloCont {
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+input, textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+}
+
+textarea {
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 500px;
+}
+
+#boton {
+    background: #31384a;
+    color: #fff;
+    padding: 20px;
+}
+
+    #boton:hover {
+        cursor: pointer;
+    }
+
+
+
+    /*Estilo de presupuesto*/
