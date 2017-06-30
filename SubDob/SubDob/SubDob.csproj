@@ -62,6 +62,7 @@
     <Content Include="Admin\Default.aspx" />
     <Content Include="Admin\GestionarPagina.aspx" />
     <Content Include="Admin\verSubDobAdmi.aspx" />
+    <Content Include="Admin\VerVideo.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -145,6 +146,13 @@
     </Compile>
     <Compile Include="Admin\verSubDobAdmi.aspx.designer.cs">
       <DependentUpon>verSubDobAdmi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\VerVideo.aspx.cs">
+      <DependentUpon>VerVideo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\VerVideo.aspx.designer.cs">
+      <DependentUpon>VerVideo.aspx</DependentUpon>
     </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>

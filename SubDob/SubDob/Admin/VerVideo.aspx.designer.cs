@@ -10,24 +10,24 @@
 namespace SubDob.Admin {
     
     
-    public partial class verSubDobAdmi {
+    public partial class VerVideo {
         
         /// <summary>
-        /// Control GridView1.
+        /// Control FormView1.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView GridView1;
+        protected global::System.Web.UI.WebControls.FormView FormView1;
         
         /// <summary>
-        /// Control SqlDSTodo.
+        /// Control SqlDsVieeo.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.SqlDataSource SqlDSTodo;
+        protected global::System.Web.UI.WebControls.SqlDataSource SqlDsVieeo;
     }
 }
