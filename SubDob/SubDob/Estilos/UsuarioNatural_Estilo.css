@@ -1,5 +1,18 @@
-﻿.form-signin
-{
+﻿/*pagina maestra*/
+body *{
+    border:1px solid red;
+}
+.Cabecera{
+    text-align:center;
+}
+
+#log ul li {
+    list-style:none;
+    display:inline-block;
+}
+
+
+.form-signin {
     max-width: 330px;
     padding: 15px;
     margin: 0 auto;
