@@ -37,13 +37,42 @@ body *{
     padding: 5px;
     border-radius:0 !important;
 }
+#fin{
+    padding:10px;
+}
+
+/*Contenido Principal----------------------- UserNatural*/
+#catDes {
+    background-color: #060460;
+    margin: 10px 0 10px 0;
+    padding:20px;
+    border-radius:20px;
+}
+#catDes ul{
+    margin-left:0;
+}
+#catDes ul li{
+    margin-top:10px;
+    list-style:none; 
+}
+
+#catDes ul li a{
+    padding: 10px;
+    display:block;
+    width:100%;
+    color:white;
+    font-size:18px;
+}
+#catDes h3{
+    color:white;
+}
 
 /*Iniciar Sesion*/
-.form-signin {
-    max-width: 330px;
-    padding: 15px;
-    margin: 0 auto;
-}
+    .form-signin {
+        max-width: 330px;
+        padding: 15px;
+        margin: 0 auto;
+    }
 .form-signin .form-signin-heading, .form-signin .checkbox
 {
     margin-bottom: 15px;

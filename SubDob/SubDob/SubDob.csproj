@@ -64,12 +64,12 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Default.aspx" />
     <Content Include="EmpresaOrg\Contactanos.aspx" />
-    <Content Include="EmpresaOrg\Estilo.css" />
     <Content Include="EmpresaOrg\Home.aspx" />
     <Content Include="EmpresaOrg\Nosotros.aspx" />
     <Content Include="EmpresaOrg\NuestrosServicios.aspx" />
     <Content Include="EmpresaOrg\Presupuesto.aspx" />
     <Content Include="Estilos\DefaultPrincipal.css" />
+    <Content Include="Estilos\EstiloEmpresaOrg.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />

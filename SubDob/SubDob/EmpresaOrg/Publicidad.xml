@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+  <Ad>
+    <ImageUrl >http://www.microcomp.cl/images/3.jpg</ImageUrl>
+    <NavigateUrl>http://www.microcomp.cl/</NavigateUrl>
+    <Impressions>100</Impressions>
+  </Ad>
+  <Ad>
+    <ImageUrl>http://www.minegocioenlaweb.net/images/mi-negocio-en-la-web.jpg</ImageUrl>
+    <NavigateUrl>http://www.minegocioenlaweb.net/</NavigateUrl>
+    <Impressions>100</Impressions>
+  </Ad>
+  <Ad>
+    <ImageUrl>http://2.bp.blogspot.com/-hAqqB6j5-xQ/UV0WIly6PmI/AAAAAAAAAW8/JcY5s0-KxZk/s1600/paquete-basico01.gif</ImageUrl>
+    <NavigateUrl>http://bbd-publicidad.blogspot.pe/</NavigateUrl>
+    <Impressions>100</Impressions>
+  </Ad>
+</Advertisements>

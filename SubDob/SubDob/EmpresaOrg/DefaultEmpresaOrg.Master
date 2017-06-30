@@ -11,7 +11,7 @@
     <link href="../Content/bootstrap.min.css" rel="stylesheet" />
     <script src="../Scripts/jquery-1.9.1.min.js"></script>
     <script src="../Scripts/bootstrap.min.js"></script>
-    <link href="Estilo.css" rel="stylesheet" />
+    <link href="../Estilos/EstiloEmpresaOrg.css" rel="stylesheet" />
 
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
@@ -27,9 +27,11 @@
 
                     <a href="Home.aspx">HOME</a>
                     <a href="Nosotros.aspx">NOSOTROS</a>
-                    <a href="NuestrosServicios.aspx">NUESTROS SERVICIOS</a>
+
+                   <a href="NuestrosServicios.aspx">NUESTROS SERVICIOS</a>
+                
                     <a href="Contactanos.aspx">CONTACTANOS</a>
-                    <a href="Presupuesto.aspx">PRESUPUESTO</a>
+                  
 
                 </section>
             </nav>
@@ -38,6 +40,11 @@
                 <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
                 </asp:ContentPlaceHolder>
             </section>
+            <aside id="lateral">
+                <h3>Te puede interesar</h3>
+                <hr />
+                <asp:AdRotator ID="AdRotator1" runat="server" AdvertisementFile="~/EmpresaOrg/Publicidad.xml"/>
+            </aside>
             <footer> &copy SubDob </footer>
         </div>
     </form>
