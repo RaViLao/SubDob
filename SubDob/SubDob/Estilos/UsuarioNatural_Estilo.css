@@ -1,17 +1,44 @@
-﻿/*pagina maestra*/
+﻿/*pagina maestra
 body *{
     border:1px solid red;
+}*/
+.Cabecera, #fin {
+    text-align: center;
+    background-color: #000e23;
+    color:white;
 }
-.Cabecera{
-    text-align:center;
+.Cabecera h2{
+    margin:10px;
+    padding:0;
 }
 
 #log ul li {
     list-style:none;
     display:inline-block;
+    margin-right: 10px;   
+
 }
 
+#log ul {
+    margin-top: 15px;
+}
+#log ul li a{
+    padding:10px;
+    color:white;
+}
 
+#buscador{
+    
+    width:75%;
+    margin-top:8px;
+    margin-bottom:8px;    
+}
+#buscar, #buscador{
+    padding: 5px;
+    border-radius:0 !important;
+}
+
+/*Iniciar Sesion*/
 .form-signin {
     max-width: 330px;
     padding: 15px;

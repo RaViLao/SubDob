@@ -19,10 +19,10 @@
         <div>
             <header class="Cabecera row">
                 <section class="col-xs-12 col-md-3">
-                    Logo
+                    <h2>Sub&Dob</h2>
                 </section>
-                <section class="col-xs-12 col-md-6">
-                    <input type="text" placeholder="Buscar" /><asp:Button ID="buscar" runat="server" Text="Buscar" />
+                <section id="busSec" class="col-xs-12 col-md-6">
+                    <input id="buscador" type="text" placeholder="Buscar" /><asp:Button cssClass="btn btn-primary" ID="buscar" runat="server" Text="Buscar" />
                 </section>
                 <section id="log" class="col-xs-12 col-md-3">
                     <asp:ContentPlaceHolder ID="logeate" runat="server">
@@ -36,6 +36,7 @@
             </header>
             <asp:ContentPlaceHolder ID="cuerpoUN" runat="server">
             </asp:ContentPlaceHolder>
+            <footer id="fin"> &copy SubDob</footer>
         </div>
     </form>
 </body>
