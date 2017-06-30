@@ -4,7 +4,7 @@
 </asp:Content>
 <asp:Content ID="logSesion" ContentPlaceHolderID="logeate" runat="server">
     <ul>
-        <li><a href="UsuarioNatural_InicioSesion.aspx">
+        <li><a href="IniciarSesionUN.aspx">
             <img src="logeate" />Iniciar Sesión</a></li>
         <li><a href="UsuarioNatural_InicioSesion.aspx">
             <img src="logeate" />Registrate</a></li>

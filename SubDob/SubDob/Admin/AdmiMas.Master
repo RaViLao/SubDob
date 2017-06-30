@@ -1,0 +1,30 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="AdmiMas.master.cs" Inherits="SubDob.Admin.AdmiMas" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <link href="../Content/bootstrap.min.css" rel="stylesheet" />
+    <script src="../Scripts/jquery-1.9.1.min.js"></script>
+    <script src="../Scripts/bootstrap.min.js"></script>
+    <link href="../Estilos/EstiloAdmi.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <header class="row"> 
+                <section class="col-xs-12 col-md-10"><h1>Sub&Dob</h1></section>
+                <section class="col-xs-12 col-md-2"><h1>
+                    <asp:Label ID="Label1" runat="server" Text="Ramiro"></asp:Label></h1></section>
+            </header>
+            <asp:ContentPlaceHolder ID="cuerpoAdmi" runat="server">
+            </asp:ContentPlaceHolder>
+            <footer id="fin">&copy Sub&Dub</footer>
+        </div>
+    </form>
+</body>
+</html>

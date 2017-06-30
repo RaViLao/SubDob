@@ -1,0 +1,40 @@
+﻿body {
+    background-color: #d9e4f4;
+}
+#Iniciar{
+width:35%;
+margin:100px auto;
+}
+
+#Iniciar  input{
+    margin:14px 0 10px 0;;
+}
+#IniciarAdmi{
+    width: 100%;
+    padding: 10px;
+    font-size:18px;
+}
+
+/*Página maestra*/
+header, #fin {
+    text-align: center;
+    background-color: #000e23;
+    padding:10px;
+    color:white;
+}
+span{
+    font-size:15px;
+    text-align:center
+}
+
+#verSubDob ul li{
+    list-style:none;
+    float:left;
+    margin:10px;
+}
+.limitar{
+    clear:both;
+}
+#verSubDob{
+    text-align:center;
+}

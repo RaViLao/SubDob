@@ -58,6 +58,10 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Admin\AgregarVideo.aspx" />
+    <Content Include="Admin\Default.aspx" />
+    <Content Include="Admin\GestionarPagina.aspx" />
+    <Content Include="Admin\verSubDobAdmi.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -69,6 +73,7 @@
     <Content Include="EmpresaOrg\NuestrosServicios.aspx" />
     <Content Include="EmpresaOrg\Presupuesto.aspx" />
     <Content Include="Estilos\DefaultPrincipal.css" />
+    <Content Include="Estilos\EstiloAdmi.css" />
     <Content Include="Estilos\EstiloEmpresaOrg.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
@@ -80,6 +85,7 @@
     <Content Include="Content\bootstrap.min.css.map" />
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="EmpresaOrg\DefaultEmpresaOrg.Master" />
+    <Content Include="Admin\AdmiMas.Master" />
     <None Include="Scripts\jquery-1.9.1.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -87,7 +93,10 @@
     <Content Include="Scripts\jquery-1.9.1.min.js" />
     <Content Include="Scripts\jquery-1.9.1.min.map" />
     <Content Include="packages.config" />
+    <Content Include="UserNatural\Busqueda.aspx" />
     <Content Include="UserNatural\HomeVer.aspx" />
+    <Content Include="UserNatural\IniciarSesionUN.aspx" />
+    <Content Include="UserNatural\ProductoMostrar.aspx" />
     <Content Include="UserNatural\UserNaturalMas.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -98,11 +107,45 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
-    <Content Include="UserNatural\UsuarioNatural_InicioSesion.aspx" />
     <Content Include="Estilos\UsuarioNatural_Estilo.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Admin\AdmiMas.Master.cs">
+      <DependentUpon>AdmiMas.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AdmiMas.Master.designer.cs">
+      <DependentUpon>AdmiMas.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AgregarVideo.aspx.cs">
+      <DependentUpon>AgregarVideo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AgregarVideo.aspx.designer.cs">
+      <DependentUpon>AgregarVideo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\GestionarPagina.aspx.cs">
+      <DependentUpon>GestionarPagina.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\GestionarPagina.aspx.designer.cs">
+      <DependentUpon>GestionarPagina.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\verSubDobAdmi.aspx.cs">
+      <DependentUpon>verSubDobAdmi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\verSubDobAdmi.aspx.designer.cs">
+      <DependentUpon>verSubDobAdmi.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -156,12 +199,33 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserNatural\Busqueda.aspx.cs">
+      <DependentUpon>Busqueda.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserNatural\Busqueda.aspx.designer.cs">
+      <DependentUpon>Busqueda.aspx</DependentUpon>
+    </Compile>
     <Compile Include="UserNatural\HomeVer.aspx.cs">
       <DependentUpon>HomeVer.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="UserNatural\HomeVer.aspx.designer.cs">
       <DependentUpon>HomeVer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserNatural\IniciarSesionUN.aspx.cs">
+      <DependentUpon>IniciarSesionUN.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserNatural\IniciarSesionUN.aspx.designer.cs">
+      <DependentUpon>IniciarSesionUN.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserNatural\ProductoMostrar.aspx.cs">
+      <DependentUpon>ProductoMostrar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserNatural\ProductoMostrar.aspx.designer.cs">
+      <DependentUpon>ProductoMostrar.aspx</DependentUpon>
     </Compile>
     <Compile Include="UserNatural\UserNaturalMas.Master.cs">
       <DependentUpon>UserNaturalMas.Master</DependentUpon>
@@ -170,16 +234,8 @@
     <Compile Include="UserNatural\UserNaturalMas.Master.designer.cs">
       <DependentUpon>UserNaturalMas.Master</DependentUpon>
     </Compile>
-    <Compile Include="UserNatural\UsuarioNatural_InicioSesion.aspx.cs">
-      <DependentUpon>UsuarioNatural_InicioSesion.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="UserNatural\UsuarioNatural_InicioSesion.aspx.designer.cs">
-      <DependentUpon>UsuarioNatural_InicioSesion.aspx</DependentUpon>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Admin\" />
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
   </ItemGroup>

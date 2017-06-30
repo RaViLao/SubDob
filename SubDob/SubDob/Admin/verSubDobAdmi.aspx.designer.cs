@@ -7,9 +7,9 @@
 // </generado automáticamente>
 //------------------------------------------------------------------------------
 
-namespace SubDob.UserNatural {
+namespace SubDob.Admin {
     
     
-    public partial class UsuarioNatural_Default {
+    public partial class verSubDobAdmi {
     }
 }

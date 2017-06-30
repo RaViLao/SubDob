@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace SubDob.UserNatural
 {
-    public partial class UsuarioNatural_Default : System.Web.UI.Page
+    public partial class Busqueda : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
