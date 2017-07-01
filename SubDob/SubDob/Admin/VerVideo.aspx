@@ -3,7 +3,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="cuerpoAdmi" runat="server">
     <div class="container">
-        <asp:FormView ID="FormView1" runat="server" DataKeyNames="IdP" DataSourceID="SqlDsVieeo">
+        <asp:FormView ID="FormView1" runat="server" DataKeyNames="IdP" DataSourceID="SqlDsVerVideo">
             <ItemTemplate>
                 IdP:
                 <asp:Label Text='<%# Eval("IdP") %>' runat="server" ID="IdPLabel" /><br />
@@ -15,14 +15,18 @@
                 <asp:Label Text='<%# Bind("Fecha") %>' runat="server" ID="FechaLabel" /><br />
                 Tipo:
                 <asp:Label Text='<%# Bind("Tipo") %>' runat="server" ID="TipoLabel" /><br />
+                Lengua:
+                <asp:Label Text='<%# Bind("Nombre") %>' runat="server" ID="Label1" /><br />
 
             </ItemTemplate>
         </asp:FormView>
-        <asp:SqlDataSource runat="server" ID="SqlDsVieeo" ConnectionString='<%$ ConnectionStrings:SUBDOBConnectionString2 %>' SelectCommand="SELECT * FROM [Producto] WHERE ([IdP] = @IdP)">
+        <asp:SqlDataSource runat="server" ID="SqlDsVerVideo" ConnectionString='<%$ ConnectionStrings:SUBDOBConnectionString3 %>' SelectCommand="select * from Producto inner Join Video on Producto.IdV = Video.IdVideo inner join Lengua on Producto.IdL = Lengua.IdLengua WHERE ([IdP] = @IdP)">
             <SelectParameters>
                 <asp:QueryStringParameter QueryStringField="c" Name="IdP" Type="Int32"></asp:QueryStringParameter>
             </SelectParameters>
         </asp:SqlDataSource>
     </div>
+
+
 
 </asp:Content>

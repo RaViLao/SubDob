@@ -39,4 +39,28 @@ span{
     text-align:center;
 }
 
+/*Acordion*/
+#Acordion section table{
+    display:none;
+    text-align:center;
+}
+#Acordion section:target table{
+    display:inline-table;
+}
+#Acordion section:target img{
+    display:none;
+}
+header a, header a:hover{
+    color:white;
+    text-decoration:none;
+}
+
+#Acordion h2 {
+    background-color: #011d4c;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+
 /*Administrar Videos*/
