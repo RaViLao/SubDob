@@ -60,8 +60,7 @@
   <ItemGroup>
     <Content Include="Admin\AgregarVideo.aspx" />
     <Content Include="Admin\Default.aspx" />
-    <Content Include="Admin\GestionarPagina.aspx" />
-    <Content Include="Admin\verSubDobAdmi.aspx" />
+    <Content Include="Admin\GestionarPaginaW.aspx" />
     <Content Include="Admin\VerVideo.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
@@ -88,6 +87,7 @@
     <Content Include="EmpresaOrg\DefaultEmpresaOrg.Master" />
     <Content Include="Admin\AdmiMas.Master" />
     <None Include="Scripts\jquery-1.9.1.intellisense.js" />
+    <Content Include="JS\EventosAdmi.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-1.9.1.js" />
@@ -133,19 +133,12 @@
     <Compile Include="Admin\Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Admin\GestionarPagina.aspx.cs">
-      <DependentUpon>GestionarPagina.aspx</DependentUpon>
+    <Compile Include="Admin\GestionarPaginaW.aspx.cs">
+      <DependentUpon>GestionarPaginaW.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Admin\GestionarPagina.aspx.designer.cs">
-      <DependentUpon>GestionarPagina.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Admin\verSubDobAdmi.aspx.cs">
-      <DependentUpon>verSubDobAdmi.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Admin\verSubDobAdmi.aspx.designer.cs">
-      <DependentUpon>verSubDobAdmi.aspx</DependentUpon>
+    <Compile Include="Admin\GestionarPaginaW.aspx.designer.cs">
+      <DependentUpon>GestionarPaginaW.aspx</DependentUpon>
     </Compile>
     <Compile Include="Admin\VerVideo.aspx.cs">
       <DependentUpon>VerVideo.aspx</DependentUpon>

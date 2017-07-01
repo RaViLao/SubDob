@@ -19,7 +19,7 @@
         <div>
             <header class="Cabecera row">
                 <section class="col-xs-12 col-md-3">
-                    <h2>Sub&Dob</h2>
+                    <a href="#"><h2>Sub&Dob</h2></a>
                 </section>
                 <section id="busSec" class="col-xs-12 col-md-6">
                     <input id="buscador" type="text" placeholder="Buscar" /><asp:Button cssClass="btn btn-primary" ID="buscar" runat="server" Text="Buscar" />

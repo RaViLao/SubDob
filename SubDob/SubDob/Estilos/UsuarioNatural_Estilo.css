@@ -1,7 +1,11 @@
-﻿/*pagina maestra
+﻿/*pagina maestra*/
+#principal img {
+    width: 100%;
+    padding:10px;
+}
 body *{
     border:1px solid red;
-}*/
+}
 .Cabecera, #fin {
     text-align: center;
     background-color: #000e23;
@@ -15,7 +19,7 @@ body *{
 #log ul li {
     list-style:none;
     display:inline-block;
-    margin-right: 10px;   
+    margin-right: 10px;    
 
 }
 
@@ -142,3 +146,7 @@ body *{
     display: block;
     margin-top: 10px;
 }
+
+/*Peliculas*/
+
+

@@ -62,5 +62,9 @@ header a, header a:hover{
     color: white;
 }
 
+#Acordion tr:hover{
+    color: red;
+}
+
 
 /*Administrar Videos*/

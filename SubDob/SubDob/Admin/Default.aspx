@@ -16,14 +16,14 @@
         <div class="container">
             <div id="Iniciar">
                 <h1 style="text-align:center">Iniciar Sesión Administrador</h1>
-                <form class="form-signin">
-                <input type="text" class="form-control" placeholder="Usuario"  />
-                <input type="password" class="form-control" placeholder="Contraseña"  />
+                <div class="form-group">
+                    <asp:TextBox cssclass="form-control" ID="textUser" runat="server" placeholder="Usuario"></asp:TextBox>
+                    <asp:TextBox cssclass="form-control" ID="textPass" runat="server" placeholder="Contraseña" TextMode="Password"></asp:TextBox>
                     <asp:Button cssClass="btn btn-primary" ID="IniciarAdmi" runat="server" Text="Iniciar Sesión" OnClick="IniciarAdmi_Click" />
                 <label class="checkbox pull-left">
                     <input type="checkbox" value="remember-me" />Recordarme</label>
                 <a href="#" class="pull-right need-help">¿Necesitas ayuda? </a><span class="clearfix"></span>
-                </form>
+                </div>
 
             </div>
 

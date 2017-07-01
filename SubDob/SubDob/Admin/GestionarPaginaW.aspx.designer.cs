@@ -13,15 +13,6 @@ namespace SubDob.Admin {
     public partial class verSubDobAdmi {
         
         /// <summary>
-        /// Control Productos.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView Productos;
-        
-        /// <summary>
         /// Control GridView1.
         /// </summary>
         /// <remarks>
@@ -31,6 +22,24 @@ namespace SubDob.Admin {
         protected global::System.Web.UI.WebControls.GridView GridView1;
         
         /// <summary>
+        /// Control GridView3.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.GridView GridView3;
+        
+        /// <summary>
+        /// Control SqlDsVideo.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.SqlDataSource SqlDsVideo;
+        
+        /// <summary>
         /// Control GridView2.
         /// </summary>
         /// <remarks>
@@ -38,6 +47,15 @@ namespace SubDob.Admin {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.GridView GridView2;
+        
+        /// <summary>
+        /// Control SqlDsLengua.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.SqlDataSource SqlDsLengua;
         
         /// <summary>
         /// Control SqldsTodos.

@@ -10,6 +10,7 @@
     <script src="../Scripts/jquery-1.9.1.min.js"></script>
     <script src="../Scripts/bootstrap.min.js"></script>
     <link href="../Estilos/EstiloAdmi.css" rel="stylesheet" />
+    <script src="../JS/EventosAdmi.js"></script>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
@@ -17,7 +18,8 @@
     <form id="form1" runat="server">
         <div>
             <header class="row">
-                <section class="col-xs-0 col-md-2"><h1></h1></section>
+                <section class="col-xs-12 col-md-2"><h1></h1></section>
+
                 <section class="col-xs-12 col-md-8"><a href="#"><h1>Sub&Dob</h1></a></section>
                 <section class="col-xs-12 col-md-2"><h1>
                     <asp:Label ID="Label1" runat="server" Text="Ramiro"></asp:Label></h1></section>

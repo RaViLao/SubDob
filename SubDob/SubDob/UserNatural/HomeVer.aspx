@@ -26,8 +26,17 @@
        </section>
        <section  id="principal" class="Mostrar col-xs-12 col-md-9">
            <h3>Películas</h3>
-           <asp:DataList ID="DataList1" runat="server"></asp:DataList>
+           <asp:DataList ID="DataList1" runat="server" RepeatColumns="3" DataKeyField="IdP" DataSourceID="SqlDsPeliculas">
+               <ItemTemplate>
+                   <img src="<%# Eval("Foto") %>" />
+                   <br />
+                   <h3><%# Eval("Titulo") %></h3>
+                   <asp:Label Text='Lengua: <%# Eval("Nombre") %>' runat="server" ID="TipoLabel" /><br />
+                   <br />
+               </ItemTemplate>
+           </asp:DataList>
 
+           <asp:SqlDataSource runat="server" ID="SqlDsPeliculas" ConnectionString='<%$ ConnectionStrings:SUBDOBConnectionString3 %>' SelectCommand="select * from Producto inner Join Video on Producto.IdV = Video.IdVideo inner join Lengua on Producto.IdL = Lengua.IdLengua where Video.TipoPubli='Pelicula';"></asp:SqlDataSource>
            <h3>Series</h3>
            <asp:DataList ID="DataList2" runat="server"></asp:DataList>
 

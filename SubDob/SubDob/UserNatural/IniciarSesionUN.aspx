@@ -13,8 +13,8 @@
                 <img class="profile-img" src="https://simpleclipart.com/image/thumbnail/d6-f9-98/silhouette-of-man-and-woman-Download-Free-Vector-File-EPS-12554.jpg"
                     alt="" />
                 <form class="form-signin">
-                <input type="text" class="form-control" placeholder="Usuario"  />
-                <input type="password" class="form-control" placeholder="Contraseña"  />
+                <asp:TextBox cssclass="form-control" ID="User" runat="server" placeholder="Usuario"></asp:TextBox>
+                    <asp:TextBox cssclass="form-control" ID="Pass" runat="server" placeholder="Contraseña" TextMode="Password"></asp:TextBox>
                 <button class="btn btn-lg btn-primary btn-block" type="submit">Iniciar Sesión</button>
                 <label class="checkbox pull-left">
                     <input type="checkbox" value="remember-me" />Recordarme</label>
