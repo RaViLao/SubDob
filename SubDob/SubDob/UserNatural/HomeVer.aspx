@@ -25,10 +25,11 @@
            </div>
        </section>
        <section  id="principal" class="Mostrar col-xs-12 col-md-9">
+           
            <h3>Películas</h3>
-           <asp:DataList ID="DataList1" runat="server" RepeatColumns="3" DataKeyField="IdP" DataSourceID="SqlDsPeliculas">
+           <asp:DataList ID="Peli" RepeatColumns="4" runat="server" DataKeyField="IdP" DataSourceID="SqlDSPeliculas">
                <ItemTemplate>
-                   <img src="<%# Eval("Foto") %>" />
+                  <img src="<%# Eval("Foto") %>" />
                    <br />
                    <h3><%# Eval("Titulo") %></h3>
                    <asp:Label Text='Lengua: <%# Eval("Nombre") %>' runat="server" ID="TipoLabel" /><br />
@@ -36,18 +37,35 @@
                </ItemTemplate>
            </asp:DataList>
 
-           <asp:SqlDataSource runat="server" ID="SqlDsPeliculas" ConnectionString='<%$ ConnectionStrings:SUBDOBConnectionString3 %>' SelectCommand="select * from Producto inner Join Video on Producto.IdV = Video.IdVideo inner join Lengua on Producto.IdL = Lengua.IdLengua where Video.TipoPubli='Pelicula';"></asp:SqlDataSource>
+           <asp:SqlDataSource runat="server" ID="SqlDSPeliculas" ConnectionString='<%$ ConnectionStrings:SUBDOBDBUsil %>' SelectCommand="select * from Producto inner Join Video on Producto.IdV = Video.IdVideo inner join Lengua on Producto.IdL = Lengua.IdLengua where Video.TipoPubli='Pelicula'"></asp:SqlDataSource>
+           
+           
+
            <h3>Series</h3>
-           <asp:DataList ID="DataList2" runat="server"></asp:DataList>
+           <asp:DataList ID="Series" runat="server"></asp:DataList>
 
+           
+           
            <h3>Tutoriales</h3>
-           <asp:DataList ID="DataList3" runat="server"></asp:DataList>
+           <asp:DataList ID="Tutorial" RepeatColumns="4" runat="server" DataKeyField="IdP" DataSourceID="SqlDSTutoriales">
+               <ItemTemplate>
+                  <img src="<%# Eval("Foto") %>" />
+                   <br />
+                   <h3><%# Eval("Titulo") %></h3>
+                   <asp:Label Text='Lengua: <%# Eval("Nombre") %>' runat="server" ID="TipoLabel" /><br />
+                   <br />
+               </ItemTemplate>
+           </asp:DataList>
 
+           <asp:SqlDataSource runat="server" ID="SqlDSTutoriales" ConnectionString='<%$ ConnectionStrings:SUBDOBDBUsil %>' SelectCommand="select * from Producto inner Join Video on Producto.IdV = Video.IdVideo inner join Lengua on Producto.IdL = Lengua.IdLengua where Video.TipoPubli='Tutorial'"></asp:SqlDataSource>
+           
+           
+           
            <h3>Documentales</h3>
-           <asp:DataList ID="DataList4" runat="server"></asp:DataList>
+           <asp:DataList ID="Documental" runat="server"></asp:DataList>
 
            <h3>Muchos mas...</h3>
-           <asp:DataList ID="DataList5" runat="server"></asp:DataList>
+           <asp:DataList ID="Otros" runat="server"></asp:DataList>
 
        </section>
    </div>

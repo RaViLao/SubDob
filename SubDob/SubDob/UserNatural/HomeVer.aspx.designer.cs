@@ -13,57 +13,66 @@ namespace SubDob.UserNatural {
     public partial class HomeVer {
         
         /// <summary>
-        /// Control DataList1.
+        /// Control Peli.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DataList DataList1;
+        protected global::System.Web.UI.WebControls.DataList Peli;
         
         /// <summary>
-        /// Control SqlDsPeliculas.
+        /// Control SqlDSPeliculas.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.SqlDataSource SqlDsPeliculas;
+        protected global::System.Web.UI.WebControls.SqlDataSource SqlDSPeliculas;
         
         /// <summary>
-        /// Control DataList2.
+        /// Control Series.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DataList DataList2;
+        protected global::System.Web.UI.WebControls.DataList Series;
         
         /// <summary>
-        /// Control DataList3.
+        /// Control Tutorial.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DataList DataList3;
+        protected global::System.Web.UI.WebControls.DataList Tutorial;
         
         /// <summary>
-        /// Control DataList4.
+        /// Control SqlDSTutoriales.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DataList DataList4;
+        protected global::System.Web.UI.WebControls.SqlDataSource SqlDSTutoriales;
         
         /// <summary>
-        /// Control DataList5.
+        /// Control Documental.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DataList DataList5;
+        protected global::System.Web.UI.WebControls.DataList Documental;
+        
+        /// <summary>
+        /// Control Otros.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DataList Otros;
     }
 }

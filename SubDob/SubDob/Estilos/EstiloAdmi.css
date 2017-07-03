@@ -40,6 +40,12 @@ span{
 }
 
 /*Acordion*/
+#Acordion > section.items input{
+    margin-top:15px;
+    float:right;
+    display:none;
+    
+}
 #Acordion section table{
     display:none;
     text-align:center;
@@ -47,23 +53,65 @@ span{
 #Acordion section:target table{
     display:inline-table;
 }
-#Acordion section:target img{
+#Acordion section:target img {
     display:none;
+    
+}
+#Acordion section:target input{
+    display:inline-block;
+}
+
+.tit > h2:hover{
+    text-decoration:underline;
+}
+
+
+#Acordion{
+    margin-left:180px;
 }
 header a, header a:hover{
     color:white;
     text-decoration:none;
 }
+#Acordion h2{
+    display:inline-block;
+}
 
-#Acordion h2 {
+#Acordion div.tit {
     background-color: #011d4c;
-    padding: 10px;
+    padding: 5px;
     border-radius: 5px;
     color: white;
 }
 
 #Acordion tr:hover{
     color: red;
+}
+
+#Solicitud{
+    text-align:center;
+    width:180px;
+    background-color: #042a68;
+    color:white;
+    position:fixed;
+    border-radius:5px;
+}
+#Solicitud h3{
+    padding:10px;
+    background-color:black;
+}
+
+#Solicitud p{
+    padding:10px;
+}
+
+#Solicitud > input{
+  margin-bottom:10px !important; 
+  background-color:#58af01 !important;
+  
+}
+section.items{
+    margin-top:20px;
 }
 
 

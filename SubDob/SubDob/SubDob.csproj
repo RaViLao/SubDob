@@ -59,6 +59,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Admin\AgregarVideo.aspx" />
+    <Content Include="Admin\AtenderSolicitud.aspx" />
     <Content Include="Admin\Default.aspx" />
     <Content Include="Admin\GestionarPaginaW.aspx" />
     <Content Include="Admin\VerVideo.aspx" />
@@ -125,6 +126,13 @@
     </Compile>
     <Compile Include="Admin\AgregarVideo.aspx.designer.cs">
       <DependentUpon>AgregarVideo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AtenderSolicitud.aspx.cs">
+      <DependentUpon>AtenderSolicitud.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AtenderSolicitud.aspx.designer.cs">
+      <DependentUpon>AtenderSolicitud.aspx</DependentUpon>
     </Compile>
     <Compile Include="Admin\Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>

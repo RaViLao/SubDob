@@ -10,6 +10,6 @@
 namespace SubDob.Admin {
     
     
-    public partial class AgregarVideo {
+    public partial class AtenderSolicitud {
     }
 }
