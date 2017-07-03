@@ -19,15 +19,15 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
       <div class="item active">
-        <img src="PelisPeru.JPG" alt="Lenguas del peru" style="width:100%;">
+        <img src="../images/PelisPeru.JPG" alt="Lenguas del peru" style="width:100%;">
       </div>
 
       <div class="item">
-        <img src="375237_187512.jpg" alt="Quechua Clips, Hera del Hielo" style="width:100%;">
+        <img src="../images/375237_187512.jpg" alt="Quechua Clips, Hera del Hielo" style="width:100%;">
       </div>
     
       <div class="item">
-        <img src="youtube-vea-la-era-del-hielo-e-jpg_604x0.jpg" alt="Quechua Clips, Hera del Hielo" style="width:100%;">
+        <img src="../images/youtube-vea-la-era-del-hielo-e-jpg_604x0.jpg" alt="Quechua Clips, Hera del Hielo" style="width:100%;">
       </div>
     </div>
 
