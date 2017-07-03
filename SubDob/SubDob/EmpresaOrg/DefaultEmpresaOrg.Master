@@ -4,9 +4,9 @@
 
 <html>
 <head runat="server">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>SubDob</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
     <link href="../Content/bootstrap-theme.min.css" rel="stylesheet" />
     <link href="../Content/bootstrap.min.css" rel="stylesheet" />
     <script src="../Scripts/jquery-1.9.1.min.js"></script>
@@ -17,35 +17,38 @@
     </asp:ContentPlaceHolder>
 </head>
 <body>
-    <form id="form1" runat="server">
+    <form id="form1" class="container-fluid" runat="server">
         <div id="contenedor">
             <header>
 
-            <h1 id="logo"> SubDob </h1>
-            <nav> 
-                <section class="opcion" > 
+                <h1 id="logo">SubDob </h1>
+                <nav>
+                    <section class="opcion">
 
-                    <a href="Home.aspx">HOME</a>
-                    <a href="Nosotros.aspx">NOSOTROS</a>
+                        <a href="Home.aspx">HOME</a>
+                        <a href="Nosotros.aspx">NOSOTROS</a>
 
-                   <a href="NuestrosServicios.aspx">NUESTROS SERVICIOS</a>
-                
-                    <a href="Contactanos.aspx">CONTACTANOS</a>
-                  
+                        <a href="NuestrosServicios.aspx">NUESTROS SERVICIOS</a>
 
-                </section>
-            </nav>
-         </header>
-            <section id="principal">
-                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-                </asp:ContentPlaceHolder>
-            </section>
-            <aside id="lateral">
-                <h3>Te puede interesar</h3>
-                <hr />
-                <asp:AdRotator ID="AdRotator1" runat="server" AdvertisementFile="~/EmpresaOrg/Publicidad.xml"/>
-            </aside>
-            <footer> &copy SubDob </footer>
+                        <a href="Contactanos.aspx">CONTACTANOS</a>
+                    </section>
+                </nav>
+            </header>
+            <div>
+                <div class="container-fluid row">
+                    <section class="col-xs-12 col-md-9">
+                    <asp:ContentPlaceHolder  ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder></section>
+
+                    <section class="col-xs-12 col-md-3">
+                        <div class="container">
+                            <h3>Te puede interesar</h3>
+                            <hr />
+                            <asp:AdRotator ID="AdRotator1" runat="server" AdvertisementFile="~/EmpresaOrg/Publicidad.xml" />
+                        </div></section>
+                </div>
+            </div>
+
         </div>
     </form>
 </body>
