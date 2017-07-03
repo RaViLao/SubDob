@@ -67,7 +67,7 @@ span{
 
 
 #Acordion{
-    margin-left:250px ;
+    margin-left:180px ;
 }
 header a, header a:hover{
     color:white;
@@ -113,6 +113,27 @@ header a, header a:hover{
 section.items{
     margin-top:20px;
 }
-
-
 /*Administrar Videos*/
+
+/*---------Administrar------------------*/
+.modal-header h4{
+    font-size:30px;
+    color:white;
+}
+.modal{
+    margin-top:150px;
+}
+.modal-header{
+    background-color: #12284c;
+}
+
+.Text h5{
+    font-size:19px;
+}
+.modal .btn{
+    display:inline-block;
+    margin-right:50px;
+}
+.iniciar{
+    padding:10px;
+}

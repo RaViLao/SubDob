@@ -58,6 +58,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Admin\AdminVideosLenguas.aspx" />
     <Content Include="Admin\AgregarVideo.aspx" />
     <Content Include="Admin\AtenderSolicitud.aspx" />
     <Content Include="Admin\Default.aspx" />
@@ -118,6 +119,13 @@
     </Compile>
     <Compile Include="Admin\AdmiMas.Master.designer.cs">
       <DependentUpon>AdmiMas.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AdminVideosLenguas.aspx.cs">
+      <DependentUpon>AdminVideosLenguas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AdminVideosLenguas.aspx.designer.cs">
+      <DependentUpon>AdminVideosLenguas.aspx</DependentUpon>
     </Compile>
     <Compile Include="Admin\AgregarVideo.aspx.cs">
       <DependentUpon>AgregarVideo.aspx</DependentUpon>

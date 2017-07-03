@@ -13,5 +13,21 @@ namespace SubDob.Admin
         {
 
         }
+
+        protected void AgrVideo_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("AgregarVideo.aspx");
+        }
+
+        protected void manejarVideos_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("AdminVideosLenguas.aspx");
+        }
+        protected void agregarNuevo_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("AgregarVideo.aspx");
+        }
+
+        
     }
 }
